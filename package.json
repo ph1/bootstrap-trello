@@ -1,0 +1,29 @@
+{
+  "name": "bootstrap-trello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "gulp": "^3.8.8",
+    "gulp-autoprefixer": "^1.0.0",
+    "gulp-sass": "^0.7.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ph1/bootstrap-trello.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "trello"
+  ],
+  "author": "Paul Hillier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ph1/bootstrap-trello/issues"
+  },
+  "homepage": "https://github.com/ph1/bootstrap-trello"
+}
