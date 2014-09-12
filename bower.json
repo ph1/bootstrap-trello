@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap-trello",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ph1/bootstrap-trello",
+  "authors": [
+    "paul hillier <paul.hillier@liquidshop.com>"
+  ],
+  "description": "bootstrap trello clone",
+  "main": "index.html",
+  "keywords": [
+    "bootstrap",
+    "trello"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.2.0"
+  }
+}
