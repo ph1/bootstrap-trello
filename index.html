@@ -1,12 +1,218 @@
 <!doctype html>
 <html class="no-js" lang="">
-    <head>
-        <meta charset="utf-8">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    <body>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" >
+	<link href="bower_components/jquery.ui/dist/jquery-ui.css" rel="stylesheet" >
+	<link href="css/main.css" rel="stylesheet" >
+</head>
+<body>
 
-    </body>
+	<div class="container-fluid">
+		<div class="col-sm-3 col">
+
+			<dl id="sortable1" class="droptrue">
+				<dt class="col-title"><h2>New Projects</h2></dt>
+				<dd class="card ui-state-default" data-toggle="modal" data-target="#myModal">
+					<h3>Mobile app</h3>
+					<div class="labels">
+						<ul>
+							<li class="urgent btn btn-default">Urgent</li>
+							<li class="bespoke btn btn-default">Bespoke</li>
+						</ul>
+					</div>
+					<div class="members">					
+						<ul>
+							<li class="alf btn btn-default">Alf</li>
+							<li class="bill btn btn-default">Bill</li>
+							<li class="maude btn btn-default">Maude</li>
+						</ul>
+					</div>
+					<div class="due-date">Sep 21</div>
+				</dd>
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+					<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+								<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+								<h4 class="modal-title" id="myModalLabel">Mobile app</h4>
+							</div>
+							<div class="modal-body">
+								<div class="labels">
+									<ul>
+										<li class="urgent btn btn-default">Urgent</li>
+										<li class="bespoke btn btn-default">Bespoke</li>
+									</ul>
+								</div>
+								<div class="members">					
+									<ul>
+										<li class="alf btn btn-default">Alf</li>
+										<li class="bill btn btn-default">Bill</li>
+										<li class="maude btn btn-default">Maude</li>
+									</ul>
+								</div>
+								<textarea class="form-control"></textarea>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<dd class="card ui-state-default">
+					<h3>Company website</h3>
+					<div class="labels">
+						<ul>
+							<li class="in-house btn btn-default">In House</li>
+							<li class="bespoke btn btn-default">Bespoke</li>
+						</ul>
+					</div>
+					<div class="members">					
+						<ul>
+							<li class="stan btn btn-default">Stan</li>
+							<li class="maude btn btn-default">Maude</li>
+						</ul>
+					</div>
+					<div class="due-date">Oct 21</div>
+				</dd>
+			</dl>
+		</div>
+		<div class="col-sm-3 col">
+			<dl id="sortable2" class="droptrue">
+				<dt class="col-title"><h2>Active</h2></dt>
+
+
+				<dd class="card ui-state-default">
+					<h3>Portfolio Gallery</h3>
+					<div class="labels">
+						<ul>
+							<li class="urgent btn btn-default">Urgent</li>
+							<li class="bespoke btn btn-default">Bespoke</li>
+						</ul>
+					</div>
+					<div class="members">					
+						<ul>
+							<li class="ethel btn btn-default">Ethel</li>
+							<li class="roy btn btn-default">Roy</li>
+
+						</ul>
+					</div>
+					<div class="due-date">Sep 21</div>
+				</dd>
+				<dd class="card ui-state-default">
+					<h3>Corporate identity</h3>
+					<div class="labels">
+						<ul>
+							<li class="print btn btn-default">Print</li>
+							<li class="bespoke btn btn-default">Bespoke</li>
+						</ul>
+					</div>
+					<div class="members">					
+						<ul>
+							<li class="stan btn btn-default">Stan</li>
+							<li class="vera btn btn-default">Vera</li>
+						</ul>
+					</div>
+					<div class="due-date">Oct 21</div>
+				</dd>
+			</dl>
+		</div>
+		<div class="col-sm-3 col">
+			<dl id="sortable3" class="droptrue">
+				<dt class="col-title"><h2>Invoice</h2></dt>
+				<dd class="card ui-state-default">
+					<h3>Business cards</h3>
+					<div class="labels">
+						<ul>
+							<li class="urgent btn btn-default">Urgent</li>
+							<li class="bespoke btn btn-default">Bespoke</li>
+						</ul>
+					</div>
+					<div class="members">					
+						<ul>
+							<li class="alf btn btn-default">Alf</li>
+							<li class="bill btn btn-default">Bill</li>
+						</ul>
+					</div>
+					<div class="due-date">Sep 21</div>
+				</dd>
+				<dd class="card ui-state-default">
+					<h3>A5 Brochure</h3>
+					<div class="labels">
+						<ul>
+							<li class="print btn btn-default">Print</li>
+							<li class="bespoke btn btn-default">Bespoke</li>
+						</ul>
+					</div>
+					<div class="members">					
+						<ul>
+							<li class="norman btn btn-default">Norman</li>
+							<li class="roy btn btn-default">Roy</li>
+						</ul>
+					</div>
+					<div class="due-date">Oct 21</div>
+				</dd>
+			</dl>
+		</div>
+		<div class="col-sm-3 col">	
+			<dl id="sortable4"  class="droptrue">
+				<dt class="col-title"><h2>Complete</h2></dt>
+				<dd class="card ui-state-default">
+					<h3>Email Campaign</h3>
+					<div class="labels">
+						<ul>
+							<li class="urgent btn btn-default">Urgent</li>
+							<li class="bespoke btn btn-default">Bespoke</li>
+						</ul>
+					</div>
+					<div class="members">					
+						<ul>
+							<li class="alf btn btn-default">Alf</li>
+							<li class="vera btn btn-default">Vera</li>
+						</ul>
+					</div>
+					<div class="due-date">Sep 21</div>
+				</dd>
+				<dd class="card ui-state-default">
+					<h3>Purcahse Domains</h3>
+					<div class="labels">
+						<ul>
+							<li class="in-house btn btn-default">In House</li>
+							<li class="bespoke btn btn-default">Bespoke</li>
+						</ul>
+					</div>
+					<div class="members">					
+						<ul>
+							<li class="stan btn btn-default">Stan</li>
+							<li class="roy btn btn-default">Roy</li>
+						</ul>
+					</div>
+					<div class="due-date">Oct 21</div>
+				</dd>
+			</dl>
+		</div>
+	</div>
+	<script src="bower_components/jquery/dist/jquery.js" ></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.js" ></script>
+	<script src="bower_components/jquery.ui/dist/jquery-ui.js"></script>
+	<script>
+	$(function() {
+		$( "dl.droptrue" ).sortable({
+			connectWith: "dl"
+		});
+
+		$( "dl.dropfalse" ).sortable({
+			connectWith: "dl",
+			dropOnEmpty: false
+		});
+
+		$( "#sortable1, #sortable2, #sortable3, #sortable4" ).disableSelection();
+	});
+	</script>
+</body>
 </html>

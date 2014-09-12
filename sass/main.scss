@@ -1,0 +1,51 @@
+
+//Colour Palette
+$dark-grey	:#616161;
+$light-grey	:#F2F2F2;
+$dark-blue	:#113F8C;
+$light-blue	:#00A1CB;
+$aqua		:#01A4A4;
+$dark-green	:#32742C;
+$light-green	:#61AE24;
+$yellow	:#D0D102;
+$pink		:#D70060;
+$red		:#E54028;
+$orange	:#F18D05;
+$white		:#FFFFFF;
+
+body{ background: $dark-grey ;}
+
+.col dl{  background:$light-grey; padding:10px;}
+
+.card{ background:#fff; border-radius:5px;
+	h3{ padding: 10px}
+}
+
+.labels{
+	ul{  padding:0 0 0 10px; clear: left; overflow: hidden;
+		li{ list-style:none; float: left; border-radius:3px; }
+	}
+}
+.members{ul{  padding:0 0 0 10px; clear: left; overflow: hidden;
+		li{ list-style:none; float: left; background: $dark-grey; color:$white; border-radius:3px;}
+	}
+}
+.due-date{ padding:0 0 10px 10px; clear: left;}
+
+.btn{ margin:0 3px 3px 0;}
+
+.urgent{background:$red; }
+.bespoke{background:$light-blue; }
+.print{background:$light-green; }
+.in-house{background:$yellow; }
+
+.alf{}
+.bill{}
+.maude{}
+.stan{}
+.ethel{}
+.roy{}
+.vera{}
+.norman{}
+
+.form-control:focus{ height:130px;}
